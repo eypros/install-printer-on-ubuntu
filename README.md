@@ -62,3 +62,16 @@ If everything goes OK this will install the driver (not the __printer!__)
 >-rwxr-xr-x 1 root root  88555 Απρ   8 14:49 HP_LaserJet_MFP_M436.ppd  
 >-rwxr-xr-x 1 root root 183424 Απρ   8 14:49 HP_LaserJet_MFP_M72625_72630.ppd  
 >-rwxr-xr-x 1 root root  35399 Απρ   8 14:49 HP_Laser_MFP_13x_Series.ppd  
+
+- I used the CUPS web interface (I found it more easy to use than the other options) by invoking:
+http://localhost:631 on the browser
+
+- I added a new printer by choosing [Adding Printers and Classes](http://localhost:631/admin) and providing my credentials
+
+- Then I choose _Local printer_ and my (recognized) printer.
+
+- The intersting part is when I should choose a driver and I point to the PPD file by choose the previously installed file. In my case of course this meant choosing _HP_Laser_MFP_13x_Series.ppd_.
+
+Hope this be helpful to someone frustated user.
+
+Good luck!
