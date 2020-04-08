@@ -70,7 +70,7 @@ http://localhost:631 on the browser
 
 - Then I choose _Local printer_ and my (recognized) printer.
 
-- The intersting part is when I should choose a driver and I point to the PPD file by choose the previously installed file. In my case of course this meant choosing _HP_Laser_MFP_13x_Series.ppd_.
+- The intersting part is when I should choose a driver and I point to the PPD file by choose the previously installed file. In my case of course this meant choosing _/opt/hp/printer/share/ppd/HP_Laser_MFP_13x_Series.ppd_.
 
 Hope this be helpful to someone frustated user.
 
